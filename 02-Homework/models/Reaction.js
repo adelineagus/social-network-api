@@ -1,16 +1,16 @@
-const {Schema, model} =require('mongoose');
+const {Schema, Types, model} =require('mongoose');
+const moment= require('moment');
 
 const reactionSchema= new Schema(
     {
         reactionId: {
             type: Schema.Types.ObjectId,
-            default: new Types.ObjectId(),
+            default: () => new Types.ObjectId(),
         },
 
         reactionBody: {
             type: String,
             required: true,
-            maxlength: 280
         },
 
         username:{
@@ -19,9 +19,22 @@ const reactionSchema= new Schema(
         },
 
         createdAt:{
-            //date
-            //set default value to current
-            //use getter method to format timestamp
-        }
+            type:Date,
+            default:Date.now,
+            get:formatDate
+        },
     },
+    {
+        toJSON: {
+          getters: true,
+        },
+        id: false,
+      }
 );
+
+function formatDate(createdAt) {
+    return moment(createdAt).format("MMM Do, YYYY")
+}; 
+
+
+module.exports=reactionSchema;

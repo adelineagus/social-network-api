@@ -1,5 +1,6 @@
 const {Schema, model} =require('mongoose');
 const reactionSchema= require('./Reaction');
+var moment=require("moment");
 
 const thoughtSchema= new Schema(
     {
@@ -7,18 +8,17 @@ const thoughtSchema= new Schema(
             type: String,
             required: true,
             minlength:1,
-            maxlength:280
             
         },
 
         createdAt: {
-            //date
-            //set default valud to current timestamp
-            //use getter method to format timestamp
+            type: Date,
+            default: Date.now,
+            get: formatDate
         },
 
         username:{
-            type:String,
+            type: String,
             required: true,
         },
 
@@ -27,9 +27,15 @@ const thoughtSchema= new Schema(
     {
         toJSON:{
             virtuals: true,
+            getters:true
         },
+        id:false,
     }
 );
+
+function formatDate(createdAt) {
+    return moment(createdAt).format("MMM Do, YYYY")
+} 
 
 //create virtual property "friendCount" that get friend count
 thoughtSchema
@@ -38,6 +44,6 @@ thoughtSchema
         return this.reactions.length;
     })
 
-const Thought= model('thought', thoughtSchema);
+const Thought= model('thoughts', thoughtSchema);
 
 module.exports= Thought;
