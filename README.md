@@ -31,13 +31,13 @@
 
   Terminal run : https://drive.google.com/file/d/1doNsRTq69UEP6l8bZQ97gV91PXOvtciN/view?usp=sharing 
 
-  USER: https://drive.google.com/file/d/1tmeUUhm_XfGLd6RIcGLugnfAw2i7Anv_/view?usp=sharing [link](./images/user.png)
+  USER [screenshot](./images/user.png): https://drive.google.com/file/d/1tmeUUhm_XfGLd6RIcGLugnfAw2i7Anv_/view?usp=sharing 
   
-  THOUGHTS: https://drive.google.com/file/d/1y3elEGXeJVWdRnk_0TVyzdBcPY4r-FwC/view?usp=sharing [link](./images/thoughts.png)
+  THOUGHTS [screenshot](./images/thoughts.png): https://drive.google.com/file/d/1y3elEGXeJVWdRnk_0TVyzdBcPY4r-FwC/view?usp=sharing 
 
-  REACTIONS: https://drive.google.com/file/d/1VJ5n_b6XgNWk0SKMFX5Rhs-aHQK1aAwo/view?usp=sharing [link](./images/reactions.png)
+  REACTIONS [screenshot](./images/reactions.png): https://drive.google.com/file/d/1VJ5n_b6XgNWk0SKMFX5Rhs-aHQK1aAwo/view?usp=sharing
 
-  FRIENDS: https://drive.google.com/file/d/1eFOhPJfNo5fTHUmc4gvTm27KCeqtLHCq/view?usp=sharing[link](./images/friends.png)
+  FRIENDS [screenshot](./images/friends.png): https://drive.google.com/file/d/1eFOhPJfNo5fTHUmc4gvTm27KCeqtLHCq/view?usp=sharing
   
   ## Credits
   Collaborators: Adeline Aguspranoto
