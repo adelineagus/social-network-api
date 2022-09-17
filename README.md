@@ -37,7 +37,7 @@
 
   REACTIONS: https://drive.google.com/file/d/1VJ5n_b6XgNWk0SKMFX5Rhs-aHQK1aAwo/view?usp=sharing [link](./images/reactions.png)
 
-  FRIENDS: [link](./images/friends.png)
+  FRIENDS: https://drive.google.com/file/d/1eFOhPJfNo5fTHUmc4gvTm27KCeqtLHCq/view?usp=sharing[link](./images/friends.png)
   
   ## Credits
   Collaborators: Adeline Aguspranoto
