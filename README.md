@@ -31,13 +31,19 @@
 
   Terminal run : https://drive.google.com/file/d/1doNsRTq69UEP6l8bZQ97gV91PXOvtciN/view?usp=sharing 
 
-  USER [screenshot](./images/user.png): https://drive.google.com/file/d/1tmeUUhm_XfGLd6RIcGLugnfAw2i7Anv_/view?usp=sharing 
+  USER: https://drive.google.com/file/d/1tmeUUhm_XfGLd6RIcGLugnfAw2i7Anv_/view?usp=sharing 
   
   THOUGHTS [screenshot](./images/thoughts.png): https://drive.google.com/file/d/1y3elEGXeJVWdRnk_0TVyzdBcPY4r-FwC/view?usp=sharing 
 
   REACTIONS [screenshot](./images/reactions.png): https://drive.google.com/file/d/1VJ5n_b6XgNWk0SKMFX5Rhs-aHQK1aAwo/view?usp=sharing
 
   FRIENDS [screenshot](./images/friends.png): https://drive.google.com/file/d/1eFOhPJfNo5fTHUmc4gvTm27KCeqtLHCq/view?usp=sharing
+
+  Screenshots
+  USER : [screenshot](./images/user.png)
+  THOUGHTS : [screenshot](./images/thoughts.png)
+  REACTIONS : [screenshot](./images/reactions.png)
+  FRIENDS : [screenshot](./images/friends.png)
   
   ## Credits
   Collaborators: Adeline Aguspranoto
